@@ -1,0 +1,17 @@
+# SPDX-FileCopyrightText: 2025 The envu-cli contributors (https://github.com/env-for-you/envu-cli/blob/master/CONTRIBUTORS.md)
+#
+# SPDX-License-Identifier: MIT
+
+[workspace]
+resolver = "3"
+members = ["envu-cli", "libenvu"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+readme = "README.md"
+repository = "https://github.com/env-for-you/envu-cli"
+license = "MIT"
+
+[workspace.dependencies]
+libenvu = { path = "libenvu", version = "0.1.0"}

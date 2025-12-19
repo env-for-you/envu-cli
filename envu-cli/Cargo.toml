@@ -1,0 +1,15 @@
+# SPDX-FileCopyrightText: 2025 The envu-cli contributors (https://github.com/env-for-you/envu-cli/blob/master/CONTRIBUTORS.md)
+#
+# SPDX-License-Identifier: MIT
+
+[package]
+name = "envu-cli"
+description = "A command-line tool for managing Dev Container-based development environments."
+version.workspace = true
+edition.workspace = true
+readme.workspace = true
+repository.workspace = true
+license.workspace = true
+
+[dependencies]
+libenvu = { workspace = true }
