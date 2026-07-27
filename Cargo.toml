@@ -15,3 +15,9 @@ license = "MIT"
 
 [workspace.dependencies]
 libenvu = { path = "libenvu", version = "0.1.0"}
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.lints.clippy]
+pedantic = { level = "warn", priority = -1 }
